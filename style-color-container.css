@@ -1,0 +1,34 @@
+.colors-container {
+  padding: 3px;
+
+  display: flex;
+  flex-direction: vertical;
+  gap: 5px;
+
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.color-card {
+  height: 50px;
+  width: 50px;
+
+  border: 1px solid black;
+  border-radius: 12px;
+}
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
