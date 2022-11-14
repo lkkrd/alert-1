@@ -15,7 +15,7 @@ colorCards.forEach((card) => {
       agreeBtns.forEach((btn) => {
         btn.style.borderColor = color;
       });
-
+      //funkcja wyświetla log w konsoli
       switch (card.id) {
         case "green":
           console.log("Case: succes alert");
